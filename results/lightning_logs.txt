@@ -1,0 +1,47 @@
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 1 processes
+----------------------------------------------------------------------------------------------------
+
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name  | Type          | Params | Mode 
+------------------------------------------------
+0 | model | Float16Module | 2.6 B  | train
+------------------------------------------------
+5.3 M     Trainable params
+2.6 B     Non-trainable params
+2.6 B     Total params
+10,478.667Total estimated model params size (MB)
+582       Modules in train mode
+0         Modules in eval mode
+Metric val_loss improved. New best score: 6.725
+Epoch 0, global step 200: 'validation_loss' reached 6.72534 (best 6.72534), saving model to '/root/ODSC-Hackathon-Repository/results/checkpoints/megatron_gpt_peft_lora_tuning--validation_loss=6.725-step=200-consumed_samples=3200.0.ckpt' as top 1
+Metric val_loss improved by 1.932 >= min_delta = 0.001. New best score: 4.793
+Epoch 0, global step 400: 'validation_loss' reached 4.79304 (best 4.79304), saving model to '/root/ODSC-Hackathon-Repository/results/checkpoints/megatron_gpt_peft_lora_tuning--validation_loss=4.793-step=400-consumed_samples=6400.0.ckpt' as top 1
+Metric val_loss improved by 1.304 >= min_delta = 0.001. New best score: 3.489
+Epoch 0, global step 600: 'validation_loss' reached 3.48945 (best 3.48945), saving model to '/root/ODSC-Hackathon-Repository/results/checkpoints/megatron_gpt_peft_lora_tuning--validation_loss=3.489-step=600-consumed_samples=9600.0.ckpt' as top 1
+Metric val_loss improved by 0.590 >= min_delta = 0.001. New best score: 2.899
+Epoch 0, global step 800: 'validation_loss' reached 2.89896 (best 2.89896), saving model to '/root/ODSC-Hackathon-Repository/results/checkpoints/megatron_gpt_peft_lora_tuning--validation_loss=2.899-step=800-consumed_samples=12800.0.ckpt' as top 1
+Metric val_loss improved by 0.185 >= min_delta = 0.001. New best score: 2.714
+Epoch 0, global step 1000: 'validation_loss' reached 2.71358 (best 2.71358), saving model to '/root/ODSC-Hackathon-Repository/results/checkpoints/megatron_gpt_peft_lora_tuning--validation_loss=2.714-step=1000-consumed_samples=16000.0.ckpt' as top 1
+Metric val_loss improved by 0.113 >= min_delta = 0.001. New best score: 2.600
+Epoch 0, global step 1200: 'validation_loss' reached 2.60033 (best 2.60033), saving model to '/root/ODSC-Hackathon-Repository/results/checkpoints/megatron_gpt_peft_lora_tuning--validation_loss=2.600-step=1200-consumed_samples=19200.0.ckpt' as top 1
+Metric val_loss improved by 0.043 >= min_delta = 0.001. New best score: 2.557
+Epoch 0, global step 1400: 'validation_loss' reached 2.55716 (best 2.55716), saving model to '/root/ODSC-Hackathon-Repository/results/checkpoints/megatron_gpt_peft_lora_tuning--validation_loss=2.557-step=1400-consumed_samples=22400.0.ckpt' as top 1
+Metric val_loss improved by 0.054 >= min_delta = 0.001. New best score: 2.503
+Epoch 0, global step 1600: 'validation_loss' reached 2.50295 (best 2.50295), saving model to '/root/ODSC-Hackathon-Repository/results/checkpoints/megatron_gpt_peft_lora_tuning--validation_loss=2.503-step=1600-consumed_samples=25600.0.ckpt' as top 1
+Metric val_loss improved by 0.028 >= min_delta = 0.001. New best score: 2.475
+Epoch 0, global step 1800: 'validation_loss' reached 2.47451 (best 2.47451), saving model to '/root/ODSC-Hackathon-Repository/results/checkpoints/megatron_gpt_peft_lora_tuning--validation_loss=2.475-step=1800-consumed_samples=28800.0.ckpt' as top 1
+Metric val_loss improved by 0.003 >= min_delta = 0.001. New best score: 2.471
+Epoch 0, global step 2000: 'validation_loss' reached 2.47131 (best 2.47131), saving model to '/root/ODSC-Hackathon-Repository/results/checkpoints/megatron_gpt_peft_lora_tuning--validation_loss=2.471-step=2000-consumed_samples=32000.0.ckpt' as top 1
+Metric val_loss improved by 0.002 >= min_delta = 0.001. New best score: 2.470
+Epoch 0, global step 2200: 'validation_loss' reached 2.46976 (best 2.46976), saving model to '/root/ODSC-Hackathon-Repository/results/checkpoints/megatron_gpt_peft_lora_tuning--validation_loss=2.470-step=2200-consumed_samples=35200.0.ckpt' as top 1
+Metric val_loss improved by 0.006 >= min_delta = 0.001. New best score: 2.464
+Epoch 0, global step 2400: 'validation_loss' reached 2.46362 (best 2.46362), saving model to '/root/ODSC-Hackathon-Repository/results/checkpoints/megatron_gpt_peft_lora_tuning--validation_loss=2.464-step=2400-consumed_samples=38400.0.ckpt' as top 1
+`Trainer.fit` stopped: `max_steps=2500` reached.
+Restoring states from the checkpoint path at /root/ODSC-Hackathon-Repository/results/checkpoints/megatron_gpt_peft_lora_tuning--validation_loss=2.464-step=2400-consumed_samples=38400.0.ckpt
+Restored all states from the checkpoint at /root/ODSC-Hackathon-Repository/results/checkpoints/megatron_gpt_peft_lora_tuning--validation_loss=2.464-step=2400-consumed_samples=38400.0.ckpt
